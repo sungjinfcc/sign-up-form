@@ -1,9 +1,14 @@
+:root{
+    --purple: #BE93D4;
+    --gray: #D3D3D3;
+}
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
     display: flex;
+    font-family: 'Roboto Mono', monospace;
 }
 .left-div{
     flex: 3;
@@ -14,17 +19,19 @@ body{
     position: relative;
     top: 20vh;
     width: 100%;
-    height: 12vh;
+    height: 16vh;
     justify-content: center;
+    gap: 3vh;
     background-color: rgba(0, 0, 0, 0.2);
 }
 .left-div img{
-    padding: 8px;
+    padding: 16px 0;
+    margin-left: 1.5vh;
 }
 .left-div h1{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 42px;
+    font-size: 6vh;
     color: white;
+    margin-right: 1.5vh;
 }
 .left-div p{
     position: relative;
@@ -37,8 +44,68 @@ body{
     flex: 5;
     background-color: bisque;
 }
+.right-div p{
+    width: 75%;
+    margin-left: 5vh;
+    font-size: 18px;
+    font-weight: 800;
+}
+.right-div p:nth-of-type(1){
+    margin-top: 15vh;
+}
+.right-div p:nth-of-type(2){
+    margin-top: 3vh;
+}
+.right-div p:nth-of-type(3){
+    margin-top: 6vh;
+    font-size: 20px;
+    color: rgba(0,0,0,0.75);
+}
+.form-row{
+    display: flex;
+    margin-left: 5vh;
+    width: 75%;
+}
+.form{
+    margin-bottom: 2vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.form input{
+    width: 75%;
+    height: 2.5vh;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+}
 .shadow{
     width: 100%;
-    margin-top: 20px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    margin-top: 2vh;
+    border-bottom: 3px solid var(--gray);
+    margin-bottom: 2vh;
+}
+button{
+    margin-left: 5vh;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 36px;
+    font: inherit;
+    background-color: var(--purple);
+    color: white;
+}
+.right-div p:nth-of-type(4){
+    margin-top: 3vh;
+    font-size: 15px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    color: var(--purple);
 }
