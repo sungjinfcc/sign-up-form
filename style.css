@@ -1,6 +1,7 @@
 :root{
     --purple: #BE93D4;
-    --gray: #D3D3D3;
+    --gray: #E5E7EB;
+    --lemon: #fff9e7;
 }
 body{
     padding: 0;
@@ -35,14 +36,14 @@ body{
 }
 .left-div p{
     position: relative;
-    top: 80vh;
+    top: 75vh;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 1.5vh;
 }
 .right-div{
     flex: 5;
-    background-color: bisque;
+    background-color: var(--lemon);
 }
 .right-div p{
     width: 75%;
@@ -82,6 +83,9 @@ body{
     height: 2.5vh;
     border: 1px solid var(--gray);
     border-radius: 3px;
+}
+.form input:invalid{
+    border: 1px solid red;
 }
 .shadow{
     width: 100%;
