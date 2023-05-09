@@ -37,3 +37,8 @@ body{
     flex: 5;
     background-color: bisque;
 }
+.shadow{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
