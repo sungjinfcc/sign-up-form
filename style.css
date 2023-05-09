@@ -26,7 +26,7 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
 }
 .left-div img{
-    padding: 16px 0;
+    padding: 1.5vh 0;
     margin-left: 1.5vh;
 }
 .left-div h1{
@@ -48,19 +48,22 @@ body{
 .right-div p{
     width: 75%;
     margin-left: 5vh;
-    font-size: 18px;
+    font-size: 2.5vh;
     font-weight: 800;
 }
 .right-div p:nth-of-type(1){
-    margin-top: 15vh;
+    margin-top: 13.5vh;
 }
 .right-div p:nth-of-type(2){
-    margin-top: 3vh;
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    font-weight: 700;
 }
 .right-div p:nth-of-type(3){
-    margin-top: 6vh;
-    font-size: 20px;
-    color: rgba(0,0,0,0.75);
+    margin-top: 5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-bottom: 5vh;
 }
 .form-row{
     display: flex;
@@ -74,24 +77,25 @@ body{
     flex-direction: column;
 }
 .form label{
-    font-size: 10px;
+    font-size: 1.2vh;
     font-weight: 100;
-    margin-bottom: 5px;
+    margin-bottom: 0.5vh;
 }
 .form input{
     width: 75%;
     height: 2.5vh;
     border: 1px solid var(--gray);
     border-radius: 3px;
+    padding: 2px 8px;
 }
 .form input:invalid{
     border: 1px solid red;
 }
 .shadow{
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 3vh;
     border-bottom: 3px solid var(--gray);
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 button{
     margin-left: 5vh;
@@ -104,7 +108,7 @@ button{
 }
 .right-div p:nth-of-type(4){
     margin-top: 3vh;
-    font-size: 15px;
+    font-size: 1.5vh;
     font-weight: 600;
 }
 a{
